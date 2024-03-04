@@ -18,7 +18,7 @@ import { middleware as webhookMiddleware } from "x-hub-signature"
 const TOKEN = process.env.TOKEN
 const PORT = process.env.PORT
 const APP_SECRET = process.env.APP_SECRET
-const REDISCLOUD_URL = process.env.REDIS_URL
+const REDIS_URL = process.env.REDISCLOUD_URL
 const QUEUE_KEY = process.env.QUEUE_KEY
 const LOG_LEVEL = process.env.LOG_LEVEL || "info"
 
